@@ -1,0 +1,30 @@
+{
+  "name": "xtx-wechat",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/nodemon bin/server"
+  },
+  "author": "achilles",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achillesye/xtx-wechat"
+  },
+  "dependencies": {
+    "babel-register": "^6.18.0",
+    "co": "^4.6.0",
+    "koa2": "^2.0.0-alpha.7",
+    "redis": "^2.6.3",
+    "urllib": "^2.19.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "nodemon": "^1.11.0"
+  }
+}
